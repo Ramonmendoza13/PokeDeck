@@ -1,0 +1,77 @@
+/* Estilos para el formulario de búsqueda */
+.form-container {
+  background: rgba(255,255,255,0.9);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* Grid del formulario */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Grupo de campos del formulario */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Etiquetas del formulario */
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+.form-group input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Efecto focus en los campos */
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Botón de envío */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+/* Efecto hover en el botón */
+.submit-btn:hover {
+  transform: scale(1.02);
+}
+
+/* Texto informativo */
+.form-info {
+  text-align: center;
+  color: #666;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+} 

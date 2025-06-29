@@ -1,0 +1,109 @@
+/* Estilos para las tarjetas de Pokémon */
+.pokemon-card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+/* Efecto hover en las tarjetas */
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  border-color: #feca57;
+}
+
+/* ID del Pokémon */
+.pokemon-id {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+/* Contenedor de la imagen */
+.pokemon-image-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* Imagen del Pokémon */
+.pokemon-image {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+/* Efecto hover en la imagen */
+.pokemon-card:hover .pokemon-image {
+  transform: scale(1.1);
+}
+
+/* Nombre del Pokémon */
+.pokemon-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+/* Efecto hover en el nombre */
+.pokemon-card:hover .pokemon-name {
+  color: #ff6b6b;
+}
+
+/* Contenedor de tipos */
+.pokemon-types {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+/* Etiquetas de tipo */
+.pokemon-type {
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Contenedor de estadísticas */
+.pokemon-stats {
+  font-size: 0.8rem;
+}
+
+/* Cada estadística individual */
+.pokemon-stat {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 8px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+/* Badge de HP */
+.hp-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #feca57;
+  color: #333;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+} 
