@@ -99,10 +99,3 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 **Ramon Mendoza** - Desarrollador Full Stack
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras.
-
----
-
-⭐ **¡Dale una estrella al proyecto si te gustó!** ⭐
