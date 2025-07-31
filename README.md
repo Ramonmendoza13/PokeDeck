@@ -1,4 +1,4 @@
-# 🎴 PokéDeck
+ # 🎴 PokéDeck --> Despleagado en https://ramonmendoza13.github.io/PokeDeckDeploy/
 
 Una aplicación web interactiva para explorar el mundo Pokémon, desarrollada con React y CSS.
 
